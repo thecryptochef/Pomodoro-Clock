@@ -25,7 +25,7 @@ const TimeSet = ({ type, value }) => {
 
       <button
         id={`${type.toLowerCase()}-decrement`}
-        className="btn btn-outline-info mr-2"
+        className="btn btn-sm btn-outline-info mr-3"
         onClick={handleDecrement}
       >
         <i className="fas fa-minus" />
@@ -37,7 +37,7 @@ const TimeSet = ({ type, value }) => {
       </span>
       <button
         id={`${type.toLowerCase()}-increment`}
-        className="btn btn-outline-info ml-2"
+        className="btn btn-sm btn-outline-info ml-3"
         onClick={handleIncrement}
       >
         <i className="fas fa-plus" />
